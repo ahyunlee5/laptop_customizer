@@ -1,10 +1,7 @@
 import React from 'react'
 
 export default function ItemOption(props) {
-  const { item, selected, featureTitle, handleUpdate } = props;
-  
-  const selectedClass = item.name === selected[featureTitle].name ? 'feature__selected' : '';
-  const featureClass = 'feature__option ' + selectedClass;
+  const { item, featureTitle, handleUpdate } = props;
   
   return (
     <li>
