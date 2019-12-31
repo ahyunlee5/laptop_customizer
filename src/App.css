@@ -40,6 +40,7 @@ main {
 
 .main__form {
   flex: 4;
+  list-style-type: none;
 }
 
 .feature {
@@ -60,6 +61,7 @@ main {
 
 .feature__item + .feature__item {
   margin-top: 0.8rem;
+  list-style-type: none;
 }
 
 /* Hide radios from sighted users,
